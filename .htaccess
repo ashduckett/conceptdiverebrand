@@ -1,0 +1,51 @@
+Options FollowSymLinks
+
+# Turn Rewrite Engine On
+RewriteEngine On
+
+# RewriteBase /
+
+# Direct root to index.php
+RewriteRule ^$ index.php [L]
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+
+# Rewrite for dive_hub.php
+RewriteRule ^dive$ dive_hub.php [NC,L]
+
+
+# Dive sites and places to go
+RewriteRule place/([0-9]+) divesite.php?id=$1 [QSA,NC,L]
+
+# Rewrite for about.php
+RewriteRule ^about about.php [NC,L]
+
+# Rewrite for Koh Tao
+RewriteRule ^kohtao ko_tao.php [NC,L]
+
+# Rewrite for Koh Tao
+RewriteRule ^admin admin.php [NC,L]
+
+# Rewrite for Koh Chang
+RewriteRule ^kohchang ko_chang.php [NC,L]
+
+# Rewrite for Koh Samui
+RewriteRule ^kohsamui ko_samui.php [NC,L]
+
+
+
+# Rewrite for places_to_go_hub.php
+RewriteRule ^places places_to_go_hub.php [NC,L]
+
+# Rewrite for islands_hub.php
+RewriteRule ^islands islands_hub.php [NC,L]
+
+# Rewrite for login
+
+RewriteRule ^login$ utils/login.php [NC,L]
+
+RewriteRule ^forgotPassword utils/forgotPassword.php [NC,L]
+
+RewriteRule ^resetpassword utils/resetPassword.php [NC,L]
+
+
