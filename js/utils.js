@@ -39,7 +39,7 @@ function addComingSoonSlides() {
             noOfComingSoons = 1;
         }
 
-        var paths = ['img/comingsoondive.jpg', 'img/comingsoonplaces.jpg', 'img/comingsoondive2.jpg']
+        var paths = ['img/divesites/thumbnails/car1.jpg', 'img/divesites/thumbnails/road1.jpg', 'img/divesites/thumbnails/bike1.jpg']
         
       if ($('#divesitesAndPlaces section.diveSites').length == 0) {
             $('#divesitesAndPlaces').append('<section class="diveSites"></section>');

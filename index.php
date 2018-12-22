@@ -13,9 +13,9 @@
                     <img class="headerImage" src="img/header_left.jpg">
                     <article>
                         <div class="clickThrough">
-                            <h1 class="largeHeader">Dive with Us</h1>
-                            <p class="standardSectionText">Let us show you the best diving spots in Thailand.</p>
-                            <a class="btn btn-green" href="dive">Dive</a>
+                            <h1 class="largeHeader">Experience the rush</h1>
+                            <p class="standardSectionText">Our cars are the fastest and most finely tuned in the world.</p>
+                            <a class="btn btn-green" href="dive">Drive</a>
                         </div>
                     </article>
                 </div>
@@ -24,7 +24,7 @@
                     <article>
                         <div class="clickThrough">
                             <h1 class="largeHeader">Where to go</h1>
-                            <p class="standardSectionText">Discover Thailand for the places you and your diving buddies will love.</p>
+                            <p class="standardSectionText">Let us put you in the fast lane of globally loved race tracks</p>
                             <a class="btn btn-purple" href="places">Explore</a>
                         </div>
                     </article>

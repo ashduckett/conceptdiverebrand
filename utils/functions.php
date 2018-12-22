@@ -212,12 +212,12 @@
                 <nav class="mainNav">
                 <div class="menuGradient nonHomePageMenuGradient"></div>
                     <div class="branding">
-                        <a href="/"><img src="img/logo.png" class="logo"></a>
+                        <!-- <a href="/"><img src="img/logo.png" class="logo"></a> -->
                     </div>
                     <ul class="menu">
                         <li><a id="desktopHome" href="/" class="' . ($isHomeActive == true ? 'active' : '') . '">Home</a></li>
                         <li><a id="desktopAbout"href="about" class="' . ($isAboutActive == true ? 'active' : '') . '">About</a></li>
-                        <li class="islandsDropdownParent"><a id="islandsDropdown"  class="' . ($isIslandsDropdownActive == true ? ' active ' : '') . '" href="islands">Islands<span id="menuCarat"><i class="fas fa-angle-down"></i></span></a>
+                        <li class="islandsDropdownParent"><a id="islandsDropdown"  class="' . ($isIslandsDropdownActive == true ? ' active ' : '') . '" href="islands">Tracks<span id="menuCarat"><i class="fas fa-angle-down"></i></span></a>
                             <ul>
                                 <li><a href="kohtao">Koh Tao</a></li>
                                 <li><a href="kohsamui">Koh Samui</a></li>
@@ -441,7 +441,7 @@
                     </div>
                     <div class="site">
                         <div class="paddingTrick"></div>
-                        <img class="islandImage" src="img/Koh Chang.jpg">
+                        <img class="islandImage" src="img/car2.jpg">
                         <div class="darkeningOverlay"></div>
                         <div class="siteTextOverlay">
                             <h1 class="largeHeader">Koh Chang</h1>
@@ -451,7 +451,7 @@
                     </div>
                     <div class="site comingSoon">
                         <div class="paddingTrick"></div>
-                        <img class="islandImage" src="img/comingsoondive.jpg">
+                        <img class="islandImage" src="img/car1.jpg">
                         <div class="siteTextOverlay">
                         <h1 class="largeHeader">Coming Soon</h1>
                         <p class="standardSectionText">Want us to add a location? Why not get in touch to add your perfect dive site or location?</p>

@@ -2,10 +2,10 @@
     <div class="footerContent">
         
         <div class="top">
-            &copy; Dive Thailand
+            &copy; Fast Lane Motorsports
         </div>
         <div class="bottom">
-            Designed and developed by <a href="https://www.conceptai.co.uk/"><img src="img/Conceptai Logo.png"></a>
+            Developed by Uncouth Studios<a href="https://www.uncouthstudios.com/"></a>
         </div>
         <!-- <section class="left">
             <div class="top">
